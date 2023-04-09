@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5857C9BD29E2CA7D00B65399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5857C9BC29E2CA7D00B65399 /* AppDelegate.swift */; };
+		5857C9BF29E2CA7D00B65399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5857C9BE29E2CA7D00B65399 /* SceneDelegate.swift */; };
+		5857C9C129E2CA7D00B65399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5857C9C029E2CA7D00B65399 /* ViewController.swift */; };
+		5857C9C429E2CA7D00B65399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5857C9C229E2CA7D00B65399 /* Main.storyboard */; };
+		5857C9C729E2CA7D00B65399 /* KaffeePOS_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5857C9C529E2CA7D00B65399 /* KaffeePOS_iOS.xcdatamodeld */; };
+		5857C9C929E2CA7F00B65399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5857C9C829E2CA7F00B65399 /* Assets.xcassets */; };
+		5857C9CC29E2CA7F00B65399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5857C9CA29E2CA7F00B65399 /* LaunchScreen.storyboard */; };
+		5857C9D729E2CA7F00B65399 /* KaffeePOS_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5857C9D629E2CA7F00B65399 /* KaffeePOS_iOSTests.swift */; };
+		5857C9E129E2CA7F00B65399 /* KaffeePOS_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5857C9E029E2CA7F00B65399 /* KaffeePOS_iOSUITests.swift */; };
+		5857C9E329E2CA7F00B65399 /* KaffeePOS_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5857C9E229E2CA7F00B65399 /* KaffeePOS_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5857C9D329E2CA7F00B65399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5857C9B129E2CA7D00B65399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5857C9B829E2CA7D00B65399;
+			remoteInfo = "KaffeePOS-iOS";
+		};
+		5857C9DD29E2CA7F00B65399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5857C9B129E2CA7D00B65399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5857C9B829E2CA7D00B65399;
+			remoteInfo = "KaffeePOS-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5857C9B929E2CA7D00B65399 /* KaffeePOS-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KaffeePOS-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5857C9BC29E2CA7D00B65399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5857C9BE29E2CA7D00B65399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5857C9C029E2CA7D00B65399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5857C9C329E2CA7D00B65399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5857C9C629E2CA7D00B65399 /* KaffeePOS_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KaffeePOS_iOS.xcdatamodel; sourceTree = "<group>"; };
+		5857C9C829E2CA7F00B65399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5857C9CB29E2CA7F00B65399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5857C9CD29E2CA7F00B65399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5857C9D229E2CA7F00B65399 /* KaffeePOS-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KaffeePOS-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5857C9D629E2CA7F00B65399 /* KaffeePOS_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaffeePOS_iOSTests.swift; sourceTree = "<group>"; };
+		5857C9DC29E2CA7F00B65399 /* KaffeePOS-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KaffeePOS-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5857C9E029E2CA7F00B65399 /* KaffeePOS_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaffeePOS_iOSUITests.swift; sourceTree = "<group>"; };
+		5857C9E229E2CA7F00B65399 /* KaffeePOS_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaffeePOS_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5857C9B629E2CA7D00B65399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5857C9CF29E2CA7F00B65399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5857C9D929E2CA7F00B65399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5857C9B029E2CA7D00B65399 = {
+			isa = PBXGroup;
+			children = (
+				5857C9BB29E2CA7D00B65399 /* KaffeePOS-iOS */,
+				5857C9D529E2CA7F00B65399 /* KaffeePOS-iOSTests */,
+				5857C9DF29E2CA7F00B65399 /* KaffeePOS-iOSUITests */,
+				5857C9BA29E2CA7D00B65399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5857C9BA29E2CA7D00B65399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5857C9B929E2CA7D00B65399 /* KaffeePOS-iOS.app */,
+				5857C9D229E2CA7F00B65399 /* KaffeePOS-iOSTests.xctest */,
+				5857C9DC29E2CA7F00B65399 /* KaffeePOS-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5857C9BB29E2CA7D00B65399 /* KaffeePOS-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5857C9BC29E2CA7D00B65399 /* AppDelegate.swift */,
+				5857C9BE29E2CA7D00B65399 /* SceneDelegate.swift */,
+				5857C9C029E2CA7D00B65399 /* ViewController.swift */,
+				5857C9C229E2CA7D00B65399 /* Main.storyboard */,
+				5857C9C829E2CA7F00B65399 /* Assets.xcassets */,
+				5857C9CA29E2CA7F00B65399 /* LaunchScreen.storyboard */,
+				5857C9CD29E2CA7F00B65399 /* Info.plist */,
+				5857C9C529E2CA7D00B65399 /* KaffeePOS_iOS.xcdatamodeld */,
+			);
+			path = "KaffeePOS-iOS";
+			sourceTree = "<group>";
+		};
+		5857C9D529E2CA7F00B65399 /* KaffeePOS-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5857C9D629E2CA7F00B65399 /* KaffeePOS_iOSTests.swift */,
+			);
+			path = "KaffeePOS-iOSTests";
+			sourceTree = "<group>";
+		};
+		5857C9DF29E2CA7F00B65399 /* KaffeePOS-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5857C9E029E2CA7F00B65399 /* KaffeePOS_iOSUITests.swift */,
+				5857C9E229E2CA7F00B65399 /* KaffeePOS_iOSUITestsLaunchTests.swift */,
+			);
+			path = "KaffeePOS-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5857C9B829E2CA7D00B65399 /* KaffeePOS-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5857C9E629E2CA7F00B65399 /* Build configuration list for PBXNativeTarget "KaffeePOS-iOS" */;
+			buildPhases = (
+				5857C9B529E2CA7D00B65399 /* Sources */,
+				5857C9B629E2CA7D00B65399 /* Frameworks */,
+				5857C9B729E2CA7D00B65399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KaffeePOS-iOS";
+			productName = "KaffeePOS-iOS";
+			productReference = 5857C9B929E2CA7D00B65399 /* KaffeePOS-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5857C9D129E2CA7F00B65399 /* KaffeePOS-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5857C9E929E2CA7F00B65399 /* Build configuration list for PBXNativeTarget "KaffeePOS-iOSTests" */;
+			buildPhases = (
+				5857C9CE29E2CA7F00B65399 /* Sources */,
+				5857C9CF29E2CA7F00B65399 /* Frameworks */,
+				5857C9D029E2CA7F00B65399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5857C9D429E2CA7F00B65399 /* PBXTargetDependency */,
+			);
+			name = "KaffeePOS-iOSTests";
+			productName = "KaffeePOS-iOSTests";
+			productReference = 5857C9D229E2CA7F00B65399 /* KaffeePOS-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5857C9DB29E2CA7F00B65399 /* KaffeePOS-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5857C9EC29E2CA7F00B65399 /* Build configuration list for PBXNativeTarget "KaffeePOS-iOSUITests" */;
+			buildPhases = (
+				5857C9D829E2CA7F00B65399 /* Sources */,
+				5857C9D929E2CA7F00B65399 /* Frameworks */,
+				5857C9DA29E2CA7F00B65399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5857C9DE29E2CA7F00B65399 /* PBXTargetDependency */,
+			);
+			name = "KaffeePOS-iOSUITests";
+			productName = "KaffeePOS-iOSUITests";
+			productReference = 5857C9DC29E2CA7F00B65399 /* KaffeePOS-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5857C9B129E2CA7D00B65399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5857C9B829E2CA7D00B65399 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					5857C9D129E2CA7F00B65399 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5857C9B829E2CA7D00B65399;
+					};
+					5857C9DB29E2CA7F00B65399 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5857C9B829E2CA7D00B65399;
+					};
+				};
+			};
+			buildConfigurationList = 5857C9B429E2CA7D00B65399 /* Build configuration list for PBXProject "KaffeePOS-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5857C9B029E2CA7D00B65399;
+			productRefGroup = 5857C9BA29E2CA7D00B65399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5857C9B829E2CA7D00B65399 /* KaffeePOS-iOS */,
+				5857C9D129E2CA7F00B65399 /* KaffeePOS-iOSTests */,
+				5857C9DB29E2CA7F00B65399 /* KaffeePOS-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5857C9B729E2CA7D00B65399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5857C9CC29E2CA7F00B65399 /* LaunchScreen.storyboard in Resources */,
+				5857C9C929E2CA7F00B65399 /* Assets.xcassets in Resources */,
+				5857C9C429E2CA7D00B65399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5857C9D029E2CA7F00B65399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5857C9DA29E2CA7F00B65399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5857C9B529E2CA7D00B65399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5857C9C729E2CA7D00B65399 /* KaffeePOS_iOS.xcdatamodeld in Sources */,
+				5857C9C129E2CA7D00B65399 /* ViewController.swift in Sources */,
+				5857C9BD29E2CA7D00B65399 /* AppDelegate.swift in Sources */,
+				5857C9BF29E2CA7D00B65399 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5857C9CE29E2CA7F00B65399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5857C9D729E2CA7F00B65399 /* KaffeePOS_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5857C9D829E2CA7F00B65399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5857C9E129E2CA7F00B65399 /* KaffeePOS_iOSUITests.swift in Sources */,
+				5857C9E329E2CA7F00B65399 /* KaffeePOS_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5857C9D429E2CA7F00B65399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5857C9B829E2CA7D00B65399 /* KaffeePOS-iOS */;
+			targetProxy = 5857C9D329E2CA7F00B65399 /* PBXContainerItemProxy */;
+		};
+		5857C9DE29E2CA7F00B65399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5857C9B829E2CA7D00B65399 /* KaffeePOS-iOS */;
+			targetProxy = 5857C9DD29E2CA7F00B65399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5857C9C229E2CA7D00B65399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5857C9C329E2CA7D00B65399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5857C9CA29E2CA7F00B65399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5857C9CB29E2CA7F00B65399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5857C9E429E2CA7F00B65399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5857C9E529E2CA7F00B65399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5857C9E729E2CA7F00B65399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J829HHBMPW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KaffeePOS-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = KaffeePOS;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.kaffeepos.KaffeePOS-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5857C9E829E2CA7F00B65399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J829HHBMPW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KaffeePOS-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = KaffeePOS;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.kaffeepos.KaffeePOS-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		5857C9EA29E2CA7F00B65399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J829HHBMPW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.kaffeepos.KaffeePOS-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaffeePOS-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KaffeePOS-iOS";
+			};
+			name = Debug;
+		};
+		5857C9EB29E2CA7F00B65399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J829HHBMPW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.kaffeepos.KaffeePOS-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaffeePOS-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KaffeePOS-iOS";
+			};
+			name = Release;
+		};
+		5857C9ED29E2CA7F00B65399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J829HHBMPW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.kaffeepos.KaffeePOS-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KaffeePOS-iOS";
+			};
+			name = Debug;
+		};
+		5857C9EE29E2CA7F00B65399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J829HHBMPW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.kaffeepos.KaffeePOS-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KaffeePOS-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5857C9B429E2CA7D00B65399 /* Build configuration list for PBXProject "KaffeePOS-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5857C9E429E2CA7F00B65399 /* Debug */,
+				5857C9E529E2CA7F00B65399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5857C9E629E2CA7F00B65399 /* Build configuration list for PBXNativeTarget "KaffeePOS-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5857C9E729E2CA7F00B65399 /* Debug */,
+				5857C9E829E2CA7F00B65399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5857C9E929E2CA7F00B65399 /* Build configuration list for PBXNativeTarget "KaffeePOS-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5857C9EA29E2CA7F00B65399 /* Debug */,
+				5857C9EB29E2CA7F00B65399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5857C9EC29E2CA7F00B65399 /* Build configuration list for PBXNativeTarget "KaffeePOS-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5857C9ED29E2CA7F00B65399 /* Debug */,
+				5857C9EE29E2CA7F00B65399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5857C9C529E2CA7D00B65399 /* KaffeePOS_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5857C9C629E2CA7D00B65399 /* KaffeePOS_iOS.xcdatamodel */,
+			);
+			currentVersion = 5857C9C629E2CA7D00B65399 /* KaffeePOS_iOS.xcdatamodel */;
+			path = KaffeePOS_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5857C9B129E2CA7D00B65399 /* Project object */;
+}
